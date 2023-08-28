@@ -1,0 +1,237 @@
+@mixin FlexElement($justify, $align) {
+    display: flex;
+    justify-content: $justify;
+    align-items: $align;
+}
+
+@mixin ForBlocks ($justify) {
+    display: flex;
+    justify-content: $justify;
+}
+
+.header {
+    background: url("../img/bg1.png");
+    width: 100%;
+    height: 650px;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    &_head {
+        @include FlexElement(space-between, center);
+        width: 1413px;
+        height: 32px;
+        margin: 0 auto;
+        &_logo {
+            display: flex;
+            &_p {
+                color: #414141;
+                font-family: Raleway;
+                font-size: 20px;
+                font-style: normal;
+                font-weight: 600;
+                line-height: normal;   
+                margin-top: 5px;
+                margin-left: 2px;         
+                -webkit-text-stroke: 0.7px #D1D1D1;
+            }
+        }
+        &_nav {
+            width: 323px;
+            height: 18px;
+            &_ul {
+                @include FlexElement(space-between, center);
+                &_li {
+                    list-style: none;
+                    &_a {
+                        color: #FFF;
+                        font-family: Raleway;
+                        font-size: 15px;
+                        font-style: normal;
+                        font-weight: 400;
+                        line-height: normal;   
+                        text-decoration: none;
+                        transition-duration: 0.6s;   
+                        &:hover {
+                            transition-duration: 0.6s; 
+                            color: #414141;
+                            -webkit-text-stroke: 0.7px #D1D1D1;
+                        }    
+                    }
+                } 
+            }
+        }
+        &_btn {
+            cursor: pointer;
+            background: none;
+            border: none;
+        }
+    }
+    &_block1 {
+        @include ForBlocks(center);
+        column-gap: 205px;
+        &_img {
+            margin-top: 71px;
+        }
+        &_bl {
+            margin-top: 130px;
+            width: 404px;
+            height: 237px;
+            &_title {
+                color: #FFF;
+                font-family: Raleway;
+                font-size: 20px;
+                font-style: normal;
+                font-weight: 600;
+                line-height: normal;        
+            }
+            &_text {
+                color: #FFF;
+                font-family: Raleway;
+                font-size: 15px;
+                font-style: normal;
+                font-weight: 400;
+                line-height: normal;       
+                width: 404px;
+                height: 162px;
+                margin-top: 10px; 
+            }
+            &_btn {
+                width: 105px;
+                height: 29px; 
+                border-radius: 10px;
+                background: #414141;
+                color: #FFF;
+                font-family: Raleway;
+                font-size: 15px;
+                font-style: normal;
+                font-weight: 400;
+                line-height: normal;
+                cursor: pointer;
+                border: none;
+                margin-top: 12px;
+                transition-duration: 0.6s;  
+                &:hover {
+                    transition-duration: 0.6s; 
+                    background: #FFF;
+                    color: #414141;
+                }
+            }
+        }
+    }
+}
+.main {
+    &_block1 {
+        width: 100%;
+        height: 745px;
+        background: linear-gradient(180deg, #000 0%, rgba(0, 0, 0, 0.00) 100%);
+        &_forp {
+            @include ForBlocks(center);
+            &_p {
+                color: #FFF;
+                font-family: Raleway;
+                font-size: 55px;
+                font-style: normal;
+                font-weight: 400;
+                line-height: normal;    
+                margin-top: 45px;   
+            } 
+        }
+        &_forimg {
+            @include ForBlocks(center);
+            &_img {
+                margin-top: 58px;
+            }
+        }
+        &_forbtn {
+            @include ForBlocks(center);
+            &_btn {
+                margin-top: 44px;
+                width: 202px;
+                height: 61px;          
+                border-radius: 10px;
+                background: #414141;   
+                color: #FFF;
+                font-family: Raleway;
+                font-size: 30px;
+                font-style: normal;
+                font-weight: 400;
+                line-height: normal;   
+                cursor: pointer;
+                border: none;  
+                transition-duration: 0.6s;  
+                &:hover {
+                    transition-duration: 0.6s; 
+                    background: #FFF;
+                    color: #414141;
+                } 
+            }
+        }
+    }
+    &_block2 {
+        @include FlexElement(flex-end, center);
+        width: 100%;
+        height: 605px;
+        background: #FFF;
+        margin-top: 65px;
+        column-gap: 80px;
+        &_texts {
+            width: 377px;
+            height: 469px;
+            &_title {
+                width: 377px;
+                height: 158px;
+                color: #000;
+                font-family: Raleway;
+                font-size: 50px;
+                font-style: normal;
+                font-weight: 400;
+                line-height: normal;           
+            }
+            &_text {
+                color: #000;
+                font-family: Raleway;
+                font-size: 25px;
+                font-style: normal;
+                font-weight: 400;
+                line-height: normal;        
+                width: 362px;
+                height: 264px;  
+                margin-top: 30px;
+            }
+        }
+    }
+}
+.footer {
+    @include FlexElement(center, center);
+    width: 100%;
+    height: 204px;
+    background: #000;   
+    &_block1 {
+        width: 344px;
+        height: 152px;
+        &_logo {
+            display: flex;
+            &_p {
+                color: #414141;
+                font-family: Raleway;
+                font-size: 20px;
+                font-style: normal;
+                font-weight: 600;
+                line-height: normal;   
+                margin-top: 5px;
+                margin-left: 2px;         
+                -webkit-text-stroke: 0.7px #D1D1D1;  
+            }
+        }
+        &_text {
+            width: 342px;
+            height: 110px;    
+            color: #FFF;
+            font-family: Raleway;
+            font-size: 15px;
+            font-style: normal;
+            font-weight: 400;
+            line-height: normal; 
+            margin-top: 10px;    
+        }
+    }
+}

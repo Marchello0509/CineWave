@@ -1,0 +1,240 @@
+.header {
+  background: url("../img/bg1.png");
+  width: 100%;
+  height: 650px;
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+}
+.header_head {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 1413px;
+  height: 32px;
+  margin: 0 auto;
+}
+.header_head_logo {
+  display: flex;
+}
+.header_head_logo_p {
+  color: #414141;
+  font-family: Raleway;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  margin-top: 5px;
+  margin-left: 2px;
+  -webkit-text-stroke: 0.7px #D1D1D1;
+}
+.header_head_nav {
+  width: 323px;
+  height: 18px;
+}
+.header_head_nav_ul {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.header_head_nav_ul_li {
+  list-style: none;
+}
+.header_head_nav_ul_li_a {
+  color: #FFF;
+  font-family: Raleway;
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  text-decoration: none;
+  transition-duration: 0.6s;
+}
+.header_head_nav_ul_li_a:hover {
+  transition-duration: 0.6s;
+  color: #414141;
+  -webkit-text-stroke: 0.7px #D1D1D1;
+}
+.header_head_btn {
+  cursor: pointer;
+  background: none;
+  border: none;
+}
+.header_block1 {
+  display: flex;
+  justify-content: center;
+  -moz-column-gap: 205px;
+       column-gap: 205px;
+}
+.header_block1_img {
+  margin-top: 71px;
+}
+.header_block1_bl {
+  margin-top: 130px;
+  width: 404px;
+  height: 237px;
+}
+.header_block1_bl_title {
+  color: #FFF;
+  font-family: Raleway;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+}
+.header_block1_bl_text {
+  color: #FFF;
+  font-family: Raleway;
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  width: 404px;
+  height: 162px;
+  margin-top: 10px;
+}
+.header_block1_bl_btn {
+  width: 105px;
+  height: 29px;
+  border-radius: 10px;
+  background: #414141;
+  color: #FFF;
+  font-family: Raleway;
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  cursor: pointer;
+  border: none;
+  margin-top: 12px;
+  transition-duration: 0.6s;
+}
+.header_block1_bl_btn:hover {
+  transition-duration: 0.6s;
+  background: #FFF;
+  color: #414141;
+}
+
+.main_block1 {
+  width: 100%;
+  height: 745px;
+  background: linear-gradient(180deg, #000 0%, rgba(0, 0, 0, 0) 100%);
+}
+.main_block1_forp {
+  display: flex;
+  justify-content: center;
+}
+.main_block1_forp_p {
+  color: #FFF;
+  font-family: Raleway;
+  font-size: 55px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  margin-top: 45px;
+}
+.main_block1_forimg {
+  display: flex;
+  justify-content: center;
+}
+.main_block1_forimg_img {
+  margin-top: 58px;
+}
+.main_block1_forbtn {
+  display: flex;
+  justify-content: center;
+}
+.main_block1_forbtn_btn {
+  margin-top: 44px;
+  width: 202px;
+  height: 61px;
+  border-radius: 10px;
+  background: #414141;
+  color: #FFF;
+  font-family: Raleway;
+  font-size: 30px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  cursor: pointer;
+  border: none;
+  transition-duration: 0.6s;
+}
+.main_block1_forbtn_btn:hover {
+  transition-duration: 0.6s;
+  background: #FFF;
+  color: #414141;
+}
+.main_block2 {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  width: 100%;
+  height: 605px;
+  background: #FFF;
+  margin-top: 65px;
+  -moz-column-gap: 80px;
+       column-gap: 80px;
+}
+.main_block2_texts {
+  width: 377px;
+  height: 469px;
+}
+.main_block2_texts_title {
+  width: 377px;
+  height: 158px;
+  color: #000;
+  font-family: Raleway;
+  font-size: 50px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+.main_block2_texts_text {
+  color: #000;
+  font-family: Raleway;
+  font-size: 25px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  width: 362px;
+  height: 264px;
+  margin-top: 30px;
+}
+
+.footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 204px;
+  background: #000;
+}
+.footer_block1 {
+  width: 344px;
+  height: 152px;
+}
+.footer_block1_logo {
+  display: flex;
+}
+.footer_block1_logo_p {
+  color: #414141;
+  font-family: Raleway;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  margin-top: 5px;
+  margin-left: 2px;
+  -webkit-text-stroke: 0.7px #D1D1D1;
+}
+.footer_block1_text {
+  width: 342px;
+  height: 110px;
+  color: #FFF;
+  font-family: Raleway;
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  margin-top: 10px;
+}/*# sourceMappingURL=style.css.map */
