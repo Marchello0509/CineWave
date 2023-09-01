@@ -1,0 +1,37 @@
+.pheader {
+    &_phead {
+        &_forlogo {
+            display: none;
+        }
+        &_forimg {
+            display: none;
+        }
+        &_forp {
+            display: none;
+        }
+        &_forbtn {
+            display: none;
+        }
+    }
+}
+.pmain {
+    &_block1 {
+        &_forp {
+            display: none;
+        }
+        &_forimg {
+            display: none;
+        }
+        &_forbtn {
+            display: none;
+        }
+    }
+    &_block2 {
+        &_forp {
+            display: none;
+        }
+        &_forimg {
+            display: none;
+        }
+    }
+}

@@ -1,0 +1,198 @@
+@media screen and (max-width: 426px) {
+  .header {
+    display: none;
+  }
+  .main {
+    display: none;
+  }
+  .footer {
+    display: none;
+  }
+  .pheader {
+    width: 100%;
+    height: 550px;
+    background: url("../img/Group 7.png");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+  }
+  .pheader_phead_forlogo {
+    display: flex;
+    justify-content: center;
+  }
+  .pheader_phead_forlogo_logo {
+    display: flex;
+    margin-top: 8px;
+  }
+  .pheader_phead_forlogo_logo_p {
+    color: #414141;
+    font-family: Raleway;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    margin-top: 5px;
+    margin-left: 2px;
+    -webkit-text-stroke: 0.7px #D1D1D1;
+  }
+  .pheader_phead_forimg {
+    display: flex;
+    justify-content: center;
+  }
+  .pheader_phead_forimg_img {
+    display: block;
+    margin-top: 36px;
+  }
+  .pheader_phead_forp {
+    display: flex;
+    justify-content: center;
+  }
+  .pheader_phead_forp_p {
+    color: #FFF;
+    font-family: Raleway;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    margin-top: 23px;
+  }
+  .pheader_phead_forbtn {
+    display: flex;
+    justify-content: center;
+  }
+  .pheader_phead_forbtn_btn {
+    width: 105px;
+    height: 28px;
+    border-radius: 10px;
+    background: #414141;
+    color: #FFF;
+    font-family: Raleway;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    margin-top: 25px;
+    border: none;
+    transition-duration: 0.6s;
+  }
+  .pheader_phead_forbtn_btn:hover {
+    transition-duration: 0.6s;
+    background: #FFF;
+    color: #414141;
+  }
+  .pmain_block1 {
+    width: 100%;
+    height: 715px;
+    background: linear-gradient(180deg, #000 0%, rgba(0, 0, 0, 0) 100%);
+  }
+  .pmain_block1_forp {
+    display: flex;
+    justify-content: center;
+  }
+  .pmain_block1_forp_p {
+    color: #FFF;
+    font-family: Raleway;
+    font-size: 25px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    margin-top: 44px;
+  }
+  .pmain_block1_forimg {
+    display: flex;
+    justify-content: center;
+  }
+  .pmain_block1_forimg_img {
+    display: block;
+    margin-top: 47px;
+  }
+  .pmain_block1_forbtn {
+    display: flex;
+    justify-content: center;
+  }
+  .pmain_block1_forbtn_btn {
+    width: 202px;
+    height: 61px;
+    border-radius: 10px;
+    background: #414141;
+    color: #FFF;
+    font-family: Raleway;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    border: none;
+    margin-top: 40px;
+    transition-duration: 0.6s;
+  }
+  .pmain_block1_forbtn_btn:hover {
+    transition-duration: 0.6s;
+    background: #FFF;
+    color: #414141;
+  }
+  .pmain_block2 {
+    width: 100%;
+    height: 756px;
+    background: #FFF;
+  }
+  .pmain_block2_forp {
+    display: flex;
+    justify-content: center;
+  }
+  .pmain_block2_forp_p {
+    width: 377px;
+    height: 156px;
+    color: #000;
+    text-align: center;
+    font-family: Raleway;
+    font-size: 50px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    margin-top: 35px;
+  }
+  .pmain_block2_forimg {
+    display: flex;
+    justify-content: center;
+  }
+  .pmain_block2_forimg_img {
+    display: block;
+    margin-top: 54px;
+  }
+  .pfooter {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 204px;
+    background: #000;
+  }
+  .pfooter_block1 {
+    width: 344px;
+    height: 152px;
+  }
+  .pfooter_block1_logo {
+    display: flex;
+  }
+  .pfooter_block1_logo_p {
+    color: #414141;
+    font-family: Raleway;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    margin-top: 5px;
+    margin-left: 2px;
+    -webkit-text-stroke: 0.7px #D1D1D1;
+  }
+  .pfooter_block1_text {
+    width: 342px;
+    height: 110px;
+    color: #FFF;
+    font-family: Raleway;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    margin-top: 14px;
+  }
+}/*# sourceMappingURL=pmedia.css.map */
