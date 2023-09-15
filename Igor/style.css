@@ -1,0 +1,130 @@
+.header {
+  height: 650px;
+  width: 100%;
+  background-image: url(./imges/MCDSUMA_UV017\ 1.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.header_left {
+  width: 421px;
+  height: 359px;
+  z-index: 3;
+}
+.header_right {
+  width: 421px;
+  height: 359px;
+  z-index: 3;
+}
+.header_right_p1 {
+  color: #FFF;
+  font-family: Raleway;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  margin-top: 20px;
+  z-index: 3;
+}
+.header_right_p2 {
+  color: #FFF;
+  font-family: Raleway;
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  margin-top: 20px;
+  z-index: 3;
+}
+.header_right_btn {
+  width: 105px;
+  height: 29px;
+  flex-shrink: 0;
+  border-radius: 10px;
+  background: #414141;
+  border: none;
+  margin-top: 20px;
+  color: #FFF;
+  font-family: Raleway;
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  z-index: 6;
+}
+.header_gradient {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  background: linear-gradient(360deg, #000 0%, rgba(0, 0, 0, 0) 100%);
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+  z-index: 1;
+}
+.header_menu {
+  height: 54px;
+  width: 100%;
+  position: absolute;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  z-index: 2;
+  top: 0;
+  left: 0;
+}
+.header_menu_img1 {
+  width: 111px;
+  height: 32px;
+}
+.header_menu_img2 {
+  width: 25px;
+}
+.header_menu_nav {
+  width: 20%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.header_menu_nav_a {
+  text-decoration: none;
+  color: #ffffff;
+  font-family: Raleway;
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+.header_menu_nav_a:hover {
+  color: white;
+  cursor: pointer;
+}
+
+.gradient {
+  background: #000;
+}
+
+.headerhide {
+  display: none;
+}
+
+.blockadd {
+  width: 100%;
+  height: 600px;
+  background: #000;
+  display: flex;
+  justify-content: center;
+}
+.blockadd_block {
+  width: 1063px;
+  height: 1299px;
+  flex-shrink: 0;
+  background: #3B3B3B;
+  transform: translateY(-500px);
+  z-index: 7;
+}
+
+.justmenu {
+  display: none;
+}/*# sourceMappingURL=style.css.map */

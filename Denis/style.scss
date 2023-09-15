@@ -1,0 +1,380 @@
+body{
+    background: rgb(15, 28, 38);
+    font-family: Raleway;
+}
+.header{
+    width: 100%;
+    height: 50px;
+    background: black;
+    padding: 15px 0 0 0;
+    display: flex;
+    justify-content: space-between;
+    &_logo{
+        padding: 0 0 0 15px;
+    }
+    &_nav{
+        display: flex;
+        column-gap: 30px;
+        &_text{
+            letter-spacing: 1px;
+            text-decoration: none;
+            color: white;
+            font-size: 18px;
+            font-weight: 500;
+        }
+    }
+    &_profile{
+        padding: 0 15px 0 0;
+        &_text{
+            display: none;
+        }
+        &_photo{
+            display: none;
+        }
+    }
+}
+.main{
+    width: 100%;
+    height: 250px;
+    background: rgba(0, 0, 0, 0.932);
+    &_one{
+        display: none;
+    }
+    &_two{
+        display: none;
+    }
+    &_title{
+        color: rgb(128, 128, 128);
+        font-size: 32px;
+        padding: 40px 0 0 40px;
+        letter-spacing: 5px;
+        cursor: pointer;
+        &_span{
+            color: white;
+        }
+    }
+    &_blocks{
+        display: flex;
+        justify-content: space-around;
+        &_first{
+            width: 250px;
+            height: 175px;
+            background: rgb(15, 28, 38);
+            margin: 20px 0 0 0;
+            border-top-left-radius: 30px 30px;
+            border-top-right-radius: 30px 30px;
+            &_title{
+                font-size: 20px;
+                letter-spacing: 1px;
+                padding: 30px 0 0 30px;
+                color: white;
+            }
+            &_subtitle{
+                font-size: 18px;
+                letter-spacing: 1px;
+                color: rgb(23, 185, 193);
+                padding: 15px 0 0 30px;
+                cursor: pointer;
+            }
+        }
+        &_rest{
+            width: 250px;
+            height: 125px;
+            background: rgb(15, 28, 38);
+            margin: 20px 0 0 0;
+            border-radius: 30px;
+            &_title{
+                font-size: 20px;
+                letter-spacing: 1px;
+                padding: 30px 0 0 30px;
+                color: white;
+            }
+            &_subtitle{
+                font-size: 18px;
+                letter-spacing: 1px;
+                color: rgb(23, 185, 193);
+                padding: 15px 0 0 30px;
+                cursor: pointer;
+            }
+        }
+    }
+}
+.container{
+    width: 100%;
+    height: 66.6vh;
+    background: white;
+    background: rgb(15, 28, 38);
+    display: flex;
+    justify-content: space-around;
+    &_footer{
+        display: none;
+    }
+    &_first{
+        width: 350px;
+        height: 550px;
+        background: rgb(21, 57, 76);
+        border-radius: 10px;
+        margin: 30px 0 0 0;
+        &_title{
+            font-size: 24px;
+            font-weight: 600;
+            color: white;
+            padding: 20px 0 20px 30px;
+        }
+        &_profile{
+            display: flex;
+            margin: 0 0 0 30px;
+            width: 250px;
+            height: 60px;
+            &_photo{
+                width: 60px;
+                height: 60px;
+                background: blue;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                border-radius: 15px;
+                &_text{
+                    font-size: 20px;
+                    font-weight: 600;
+                    color: white;
+                }
+            }
+            &_data{
+                display: block;
+                padding: 1px 0 0 5px;
+                &_name{
+                    padding: 0 0 3px 0;
+                    color: white;
+                }
+                &_registration{
+                    padding: 3px 0 3px 0;
+                    color: rgb(179, 179, 179);
+                }
+                &_email{
+                    color: rgb(179, 179, 179);
+                }
+            }
+        }
+        &_id{
+            padding: 15px 0 0 30px;
+            display: block;
+            &_text{
+                color: rgb(179, 179, 179);
+                font-size: 18px;
+                font-weight: 600;
+            }
+            &_btn{
+                background: rgb(25, 65, 86);
+                border: none;
+                border-radius: 5px;
+                width: 250px;
+                height: 30px;
+                font-size: 16px;
+                color: white;
+                cursor: pointer;
+                text-align: left;
+                padding: 0 0 0 10px;
+            }
+        }
+        &_name{
+            padding: 15px 0 0 30px;
+            &_text{
+                color: rgb(179, 179, 179);
+                font-size: 18px;
+                font-weight: 600;
+            }
+            &_btn{
+                background: rgb(25, 65, 86);
+                border: none;
+                border-radius: 5px;
+                width: 250px;
+                height: 30px;
+                font-size: 16px;
+                color: rgb(179, 179, 179);
+                cursor: pointer;
+            }
+        }
+        &_email{
+            padding: 15px 0 0 30px;
+            &_text{
+                color: rgb(179, 179, 179);
+                font-size: 18px;
+                font-weight: 600;
+            }
+            &_btn{
+                background: rgb(25, 65, 86);
+                border: none;
+                border-radius: 5px;
+                width: 250px;
+                height: 30px;
+                font-size: 16px;
+                color: white;
+                cursor: pointer;
+            }
+        }
+        &_phone{
+            padding: 15px 0 0 30px;
+            &_text{
+                color: rgb(179, 179, 179);
+                font-size: 18px;
+                font-weight: 600;
+            }
+            &_btn{
+                background: rgb(25, 65, 86);
+                border: none;
+                border-radius: 5px;
+                width: 250px;
+                height: 30px;
+                font-size: 16px;
+                color: rgb(179, 179, 179);
+                cursor: pointer;
+            }
+        }
+        &_date{
+            margin: 10px 0 0 30px;
+            &_text{
+                color: rgb(179, 179, 179);
+                font-size: 18px;
+                font-weight: 600;
+            }
+            &_btn{
+                margin: 10px 15px 0 0;
+                background: rgb(25, 65, 86);
+                color: white;
+                border-radius: 5px;
+                border: none;
+                width: 70px;
+                height: 40px;
+                cursor: pointer;
+            }
+        }
+        &_btn{
+            margin: 30px 30px 0 30px;
+            width: 300px;
+            height: 45px;
+            color: rgb(179, 179, 179);
+            background: rgb(21, 57, 76);
+            border-radius: 30px;
+            border: 1px solid rgb(27, 137, 149);
+        }
+    }
+    &_second{
+        width: 350px;
+        height: 300px;
+        background: rgb(21, 57, 76);
+        border-radius: 10px;
+        margin: 30px 0 0 0;
+        &_title{
+            font-size: 24px;
+            font-weight: 600;
+            color: white;
+            padding: 20px 0 20px 30px;
+        }
+        &_subtitle{
+            font-size: 18px;
+            font-weight: 500;
+            color: white;
+            padding: 0 0 17px 30px;
+        }
+        &_text{
+            font-size: 18px;
+            font-weight: 500;
+            color: rgb(179, 179, 179);
+            padding: 0 0 0 30px;
+        }
+        &_btns{
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            row-gap: 15px;
+            padding: 15px 0 26px 0;
+            &_first{
+                width: 300px;
+                height: 50px;
+                border-radius: 30px;
+                background: rgb(243, 63, 48);
+                border: none;
+                color: white;
+                cursor: pointer;
+            }
+            &_second{
+                width: 300px;
+                height: 50px;
+                background: rgb(21, 57, 76);
+                border: 2px solid rgb(243, 63, 48);
+                border-radius: 30px;
+                color: white;
+                cursor: pointer;
+            }
+        }
+    }
+    &_third{
+        margin: 30px 0 0 0;
+        &_balance{
+            width: 350px;
+            height: 80px;
+            border-radius: 10px;
+            display: flex;
+            align-items: center;
+            justify-content: space-around;
+            background: rgb(21, 57, 76);
+            margin: 0 0 25px 0;
+            &_text{
+                &_main{
+                    color: white;
+                    font-size: 16px;
+                    font-weight: 500;
+                    &_reserve{
+                        color: rgb(39, 177, 192);
+                        font-size: 20px;
+                        font-weight: 600;
+                    }
+                }
+            }
+            &_controll{
+                &_btn{
+                    width: 175px;
+                    height: 35px;
+                    border-radius: 20px;
+                    background: none;
+                    border: 2px solid rgb(27, 137, 149);
+                    color: white;
+                    font-size: 18px;
+                    font-weight: 600;
+                    cursor: pointer;
+                }
+            }
+        }
+        &_controll{
+            width: 330px;
+            height: 100px;
+            border-radius: 10px;
+            row-gap: 15px;
+            background: rgb(21, 57, 76);
+            padding: 20px 0 0 20px;
+            &_main{
+                color: white;
+                font-size: 16px;
+                font-weight: 500;
+                &_reserve{
+                    color: gold;
+                    font-size: 18px;
+                    font-weight: 600;
+                }
+            }
+            &_btn{
+                margin: 10px 0 0 130px;
+                width: 175px;
+                height: 35px;
+                border-radius: 20px;
+                border: 2px solid rgb(27, 137, 149);
+                color: white;
+                font-size: 18px;
+                font-weight: 600;
+                cursor: pointer;
+                background: none;
+            }
+        }
+    }
+}
