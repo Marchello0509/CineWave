@@ -1,0 +1,116 @@
+body {
+  height: 2065px;
+  background: #0A0707;
+}
+
+.header {
+  display: flex;
+  justify-content: center;
+}
+.header_logo {
+  display: flex;
+  margin-top: 5px;
+}
+.header_logo_p {
+  color: #414141;
+  font-family: Raleway;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  margin-top: 5px;
+  margin-left: 2px;
+  -webkit-text-stroke: 0.7px #D1D1D1;
+}
+
+.main_block1 {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  height: 350px;
+  margin-top: 25px;
+  -moz-column-gap: 35px;
+       column-gap: 35px;
+}
+.main_block1_img {
+  width: 250px;
+  height: 350px;
+}
+.main_block2 {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  height: 350px;
+  margin-top: 105px;
+  -moz-column-gap: 35px;
+       column-gap: 35px;
+}
+.main_block2_img {
+  width: 250px;
+  height: 350px;
+}
+.main_block3 {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  height: 350px;
+  margin-top: 105px;
+  -moz-column-gap: 35px;
+       column-gap: 35px;
+}
+.main_block3_img {
+  width: 250px;
+  height: 350px;
+}
+.main_block4 {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  height: 350px;
+  margin-top: 105px;
+  -moz-column-gap: 35px;
+       column-gap: 35px;
+}
+.main_block4_img {
+  width: 250px;
+  height: 350px;
+}
+
+.footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 204px;
+  background: #000;
+  margin-top: 85px;
+}
+.footer_block1 {
+  width: 344px;
+  height: 152px;
+}
+.footer_block1_logo {
+  display: flex;
+}
+.footer_block1_logo_p {
+  color: #414141;
+  font-family: Raleway;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  margin-top: 5px;
+  margin-left: 2px;
+  -webkit-text-stroke: 0.7px #D1D1D1;
+}
+.footer_block1_text {
+  width: 342px;
+  height: 110px;
+  color: #FFF;
+  font-family: Raleway;
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  margin-top: 10px;
+}/*# sourceMappingURL=style.css.map */

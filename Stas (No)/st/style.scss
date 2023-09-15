@@ -1,0 +1,117 @@
+
+@mixin FlexElement($justify, $align) {
+    display: flex;
+    justify-content: $justify;
+    align-items: $align;
+}
+
+@mixin ForBlocks ($justify) {
+    display: flex;
+    justify-content: $justify;
+}
+
+body {
+    height: 2065px;
+    background: #0A0707;
+}
+
+.header {
+    @include ForBlocks(center);
+    &_logo {
+        display: flex;
+        margin-top: 5px;
+        &_p {
+            color: #414141;
+            font-family: Raleway;
+            font-size: 20px;
+            font-style: normal;
+            font-weight: 600;
+            line-height: normal;   
+            margin-top: 5px;
+            margin-left: 2px;         
+            -webkit-text-stroke: 0.7px #D1D1D1;
+        }
+    }
+}
+.main {
+    &_block1 {
+        @include ForBlocks(center);
+        width: 100%;
+        height: 350px;
+        margin-top: 25px;
+        column-gap: 35px;
+        &_img {
+            width: 250px;
+            height: 350px;      
+        }
+    }
+    &_block2 {
+        @include ForBlocks(center);
+        width: 100%;
+        height: 350px;
+        margin-top: 105px;
+        column-gap: 35px;
+        &_img {
+            width: 250px;
+            height: 350px;      
+        }
+    }
+    &_block3 {
+        @include ForBlocks(center);
+        width: 100%;
+        height: 350px;
+        margin-top: 105px;
+        column-gap: 35px;
+        &_img {
+            width: 250px;
+            height: 350px;      
+        }
+    }
+    &_block4 {
+        @include ForBlocks(center);
+        width: 100%;
+        height: 350px;
+        margin-top: 105px;
+        column-gap: 35px;
+        &_img {
+            width: 250px;
+            height: 350px;      
+        }
+    }
+}
+.footer {
+    @include FlexElement(center, center);
+    width: 100%;
+    height: 204px;
+    background: #000;   
+    margin-top: 85px;
+    &_block1 {
+        width: 344px;
+        height: 152px;
+        &_logo {
+            display: flex;
+            &_p {
+                color: #414141;
+                font-family: Raleway;
+                font-size: 20px;
+                font-style: normal;
+                font-weight: 600;
+                line-height: normal;   
+                margin-top: 5px;
+                margin-left: 2px;         
+                -webkit-text-stroke: 0.7px #D1D1D1;  
+            }
+        }
+        &_text {
+            width: 342px;
+            height: 110px;    
+            color: #FFF;
+            font-family: Raleway;
+            font-size: 15px;
+            font-style: normal;
+            font-weight: 400;
+            line-height: normal; 
+            margin-top: 10px;    
+        }
+    }
+}

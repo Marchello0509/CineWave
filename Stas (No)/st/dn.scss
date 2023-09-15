@@ -1,0 +1,40 @@
+.phead {
+    &_logo {
+        display: none;
+        &_svg {
+            display: none;
+        }
+    }
+}
+.pmain {
+    &_block1 {
+        &_img {
+            display: none;
+        }
+    }
+    &_block2 {
+        &_img {
+            display: none;
+        }
+    }
+    &_block3 {
+        &_img {
+            display: none;
+        }
+    }
+    &_block4 {
+        &_img {
+            display: none;
+        }
+    }
+}
+.pfooter {
+    &_block1 {
+        &_logo {
+            display: none;
+        }
+        &_text {
+            display: none;
+        }
+    }
+}
